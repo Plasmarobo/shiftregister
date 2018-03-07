@@ -1,7 +1,9 @@
 # shiftregister
 A small gpiozero extension to include the `74HCT595` shift register family in gpiozero.
 
-## Example
+# Example Circuit
+![Circuit using the shift register](https://github.com/Plasmarobo/shiftregister/raw/master/shift%20register_bb.png "Shift Register Circuit")
+## Library Example
 Assuming Pin 9 is connected to `SH_CP` (clock), Pin 10 is connected to `ST_CP` (show/latch), and Pin 11 is connected to `DS` (data)
 
 ```python
